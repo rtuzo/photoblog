@@ -1,0 +1,72 @@
+.container{
+    max-width: 500px;
+    margin: auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    }
+fieldset{
+    border: #1abc9c 3px solid;
+    line-height: 30px;
+    border-radius: 10px;
+    }
+.label{
+    display: block;
+    color: white;
+}
+
+body{
+    background-image: url("../img/nature (3).jpg");
+    background-size: cover;
+}
+input[type=text], [type=password], [type=comment]:focus{
+    border: #1abc9c 2px solid;
+    border-radius: 5px;
+    outline: none;
+    background-color: #e8eeef;
+    color:black;
+}
+input[type=password],[type=text] {
+    width: 400px;
+    padding: 10px;
+}
+
+select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #e8eeef;
+    color:black;
+
+    margin-bottom: 30px;
+}
+input[type="submit"]{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+legend{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: #16a085;
+}
+h1 {
+    color: white;
+}
